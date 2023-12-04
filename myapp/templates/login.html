@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+<body>
+<div class="split-container">
+        <div class="left-pane">
+            <img src="{% static 'img/icon.svg' %}" alt="">
+            <form class="form-login">
+                  <label for="email">Email:</label><br>
+                  <input type="email" id="email" name="email"><br>
+                  <label for="password">Password:</label><br>
+                  <input type="text" id="password" name="password">
+            </form>
+            <label for="forgot-pass">Forgot Password?:</label>
+            <div class="button-login">
+                <div class="button-text">Login now</div>
+            </div>
+
+        </div>
+        <div class="right-pane">
+            <img src="{% static 'img/login-pana.svg' %}" alt="">
+        </div>
+    </div>
+
+
+</body>
+</html>

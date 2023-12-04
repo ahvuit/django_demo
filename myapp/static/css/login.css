@@ -1,0 +1,71 @@
+body{
+    margin:0
+}
+
+input{
+    border: 4px;
+}
+
+.split-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-pane {
+    flex: 1;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.right-pane {
+    flex: 2;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-login {
+    width: calc(100% - 52px);
+    height: 50px;
+    position: relative;
+    background: #FD7401;
+    box-shadow: 0 12px 24px rgba(253, 116, 1, 0.30);
+    border-radius: 8px;
+    margin: 10px 26px;
+}
+
+.button-text {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.forgot-pass{
+    color: #1E2772;
+    font-size: 14px;
+    font-family: Poppins, serif;
+    font-weight: 400;
+    text-decoration: underline;
+    word-wrap: break-word
+}
+
+.form-login {
+    flex-direction: column;
+    display: flex;
+    margin-left: 28px;
+    margin-right: 28px;
+    align-self: center;
+}
