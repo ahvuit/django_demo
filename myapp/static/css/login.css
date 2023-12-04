@@ -37,7 +37,9 @@ input{
     background: #FD7401;
     box-shadow: 0 12px 24px rgba(253, 116, 1, 0.30);
     border-radius: 8px;
-    margin: 10px 26px;
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-top: 33px;
 }
 
 .button-text {
@@ -69,3 +71,62 @@ input{
     margin-right: 28px;
     align-self: center;
 }
+
+.separator-container {
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+
+.separator-line {
+    width: 175px;
+    position: absolute;
+    border: 1px #C2C2C2 solid;
+}
+
+.separator-text {
+    left: 195px;
+    position: absolute;
+    color: #C2C2C2;
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
